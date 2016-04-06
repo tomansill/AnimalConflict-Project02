@@ -138,6 +138,7 @@ public class Simulation{
             }
             System.out.print("Individual " + individual1.getId() + "=" + individual1.getResource());
             System.out.println("\tIndividual " + individual2.getId() + "=" + individual2.getResource());
+	    System.out.println();
             return true;
         }else return false;
     }
